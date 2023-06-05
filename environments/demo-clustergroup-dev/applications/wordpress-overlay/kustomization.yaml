@@ -12,10 +12,10 @@ commonLabels:
 
 images:
 - name: mysql
-  newName: harbor.navneetv.com/proxy-cache/library/mysql
+  newName: dso.docker.com/images/mysql
   newTag: "8.0"
 - name: wordpress
-  newName: harbor.navneetv.com/proxy-cache/library/wordpress
+  newName: dso.docker.com/images/wordpress
   newTag: "6.1.1-php8.1-apache"
 
 secretGenerator:
